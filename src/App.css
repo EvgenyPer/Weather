@@ -1,0 +1,44 @@
+/* Стили для контейнера приложения */
+.App {
+  text-align: center;
+}
+
+/* Стили для логотипа приложения */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Анимация вращения логотипа */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Стили для заголовка приложения */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Стили для ссылки в приложении */
+.App-link {
+  color: #61dafb;
+}
+
+/* Ключевая кадровая анимация вращения логотипа */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
